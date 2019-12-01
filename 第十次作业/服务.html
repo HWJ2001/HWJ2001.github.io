@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.head {
+				background-color: deepskyblue;
+				height: 200px;
+				width: 80%;
+				margin: 0 auto;
+			}
+			
+			.font1 {
+				padding: 20px;
+				font-size: 50px;
+				text-shadow: 15px 5px 5px black;
+				color: orange;
+			}
+			.main{
+				height: 50px;
+				width: 80%;
+				background-color: brown;
+				margin: 0 auto;
+			}
+			div ul li {
+				list-style: none;
+			}
+			div ul li a {
+				display: block;
+				height: 33px;
+				width: 200px;
+				text-decoration: none;
+				color: white;
+				text-align: center;
+				line-height: 30px;
+				float: left;
+				margin-top: 10px;
+			}
+			div ul li a:hover{
+				background-color: chocolate;
+				color: black;
+			}
+			.foot{
+				width: 80%;
+				height: 2000px;
+				margin: 0 auto;
+				background-color: antiquewhite;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<div class="font1">
+				<h1 align="center"><i >@优游.com</h1>
+			</div>
+		</div>
+		<div class="main">
+			<ul>
+				<li>
+					<a href="https://hwj2001.github.io/@优游/">主页</a>
+					<a href="景区.html">景区</a>
+					<a href="服务.html">服务</a>
+					<a href="反馈.html">反馈</a>
+					<a href="https://hwj2001.github.io/第九次作业/">简介</a>
+					<a href="登录.html">登录</a>
+				</li>
+			</ul>
+		</div>
+		<div class="foot">
+			<input type="radio" name="fuwu" style="font-size: x-large;" id="text2">无导游路线规划<input /><br />
+			<input type="radio" name="fuwu" style="font-size: x-large;" id="text2">私人导游<input /><br />
+			<input type="radio" name="fuwu" style="font-size: x-large;" id="text2">跟团游<input />
+			<input type="button" onclick="a()" value="提交" align="right" />
+			<p style="font-size: x-large;">(请在输入框中输入您的个人偏好的景点类型以及备注请求)</p>
+			<p style="font-size: x-large; color: aqua;" >中途更改服务类型请与反馈中与客服联系！！！</p>
+		</div>
+		<script>
+			function a(){
+				alert("提交成功，祝您愉快！（稍后将会有客服与您联系，给您路线以及相关费用说明）");
+			}
+		</script>
+	</body>
+</html>

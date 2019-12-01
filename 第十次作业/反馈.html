@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.head {
+				background-color: deepskyblue;
+				height: 200px;
+				width: 80%;
+				margin: 0 auto;
+			}
+			
+			.font1 {
+				padding: 20px;
+				font-size: 50px;
+				text-shadow: 15px 5px 5px black;
+				color: orange;
+			}
+			
+			.main {
+				height: 50px;
+				width: 80%;
+				background-color: brown;
+				margin: 0 auto;
+			}
+			
+			div ul li {
+				list-style: none;
+			}
+			
+			div ul li a {
+				display: block;
+				height: 33px;
+				width: 200px;
+				text-decoration: none;
+				color: white;
+				text-align: center;
+				line-height: 30px;
+				float: left;
+				margin-top: 10px;
+			}
+			
+			div ul li a:hover {
+				background-color: chocolate;
+				color: black;
+			}
+			
+			.foot {
+				width: 80%;
+				height: 1000px;
+				background-color: antiquewhite;
+				margin: 0 auto;
+			}
+			
+			.box1 {
+				width: 100%;
+				height: 300px;
+				margin: 0 auto;
+			}
+			
+			#text1 {
+				height: 280px;
+				width: 100%;
+				border: 1px black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="font1">
+				<h1 align="center"><i >@优游.com</h1>
+			</div>
+		</div>
+		<div class="main">
+			<ul>
+				<li>
+					<a href="https://hwj2001.github.io/@优游/">主页</a>
+					<a href="景区.html">景区</a>
+					<a href="服务.html">服务</a>
+					<a href="反馈.html">反馈</a>
+					<a href="https://hwj2001.github.io/第九次作业/">简介</a>
+					<a href="登录.html">登录</a>
+				</li>
+			</ul>
+		</div>
+		<div class="foot">
+			<p align="left" style="font-size: larger;">请输入您的反馈内容：</p>
+			<div class="box1">
+				<input type="text" id="text1" />
+				<input type="button" onclick="a()" value="提交" align="right" />
+			</div>
+		</div>
+		<script>
+			function a(){
+				alert("提交成功，祝您愉快！");
+			}
+		</script>
+	</body>
+
+</html>
